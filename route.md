@@ -1,12 +1,16 @@
 ## ROUTE DOCUMENTATION
 
-### 1. Route
+### 1. Route [Example: books]
 
 
-| ROUTE       | DESCRIPTION | Test Text     |
+| HTTP REQUEST       | ROUTES | DESCRIPTION    |
 | :---        |    :----:   |          ---: |
-|       | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| GET         | /books       | The route for get all books   |
+| GET         | /books/{id}        | The route to get a book by given id      |
+| POST        | /books        |  The route to create a new book     |
+| PUT         | /books/{id}        | The route to update a book by given id |
+| DELETE     | /books/{id}        | The route to delete a book|
+
 
 - [x] Write the press release
 - [ ] Update the website
