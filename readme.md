@@ -57,7 +57,7 @@ After that you need to delete all your table in your database and then run your 
 ### STEP 8: GIVE PERMISSIONS TO <code>storage</code> folder.
 When we are on Server we don't have permission to access the storage folder so we need to give the permission to user by following the command:
 
-> sudo chmod 777 -R storage
+> sudo chmod 777 -R public bootstrap storage
 
 ### STEP 10: <code> ALLOW OVERRRIDE </code> 
 After we finish step 6 we still cannot access the path on URL or link to other pages we need to to allow override in <code>httpd.conf</code> file. 
